@@ -37,6 +37,7 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<Home lang={lang} />} />
+		<Route path="*" element={<Home lang={lang} />} />
         <Route path="/about" element={<About lang={lang} />} />
         <Route path="/contacts" element={<Contacts lang={lang} />} />
         <Route path="/hobby" element={<Hobby lang={lang} />} />

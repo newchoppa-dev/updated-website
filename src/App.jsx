@@ -23,7 +23,7 @@ export default function App() {
   };
 
   return (
-    <HashRouter basename="/updated-website">
+    <HashRouter>
 
       <nav className="container">
 

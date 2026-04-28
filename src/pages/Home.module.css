@@ -1,0 +1,32 @@
+.container {
+  width: 1020px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+}
+
+.title {
+  padding: 20px;
+  border: 5px solid black;
+  margin-bottom: 16px;
+  background: white;
+  color: black;
+}
+
+.boxes {
+  padding: 30px 12px;
+  background: white;
+  margin-bottom: 5px;
+  color: black;
+  border: 2px solid black;
+}
+
+.buttonstyle {
+  border: 2px solid black;
+  background: white;
+}

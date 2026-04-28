@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import { useState } from "react";
 import { translation } from "./data/translation";
 
@@ -23,7 +23,7 @@ export default function App() {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
 
       <nav className="container">
 
@@ -44,6 +44,6 @@ export default function App() {
 		<Route path="/notes" element={<Notes lang={lang} />} />
       </Routes>
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }

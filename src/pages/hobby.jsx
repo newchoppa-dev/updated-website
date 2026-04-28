@@ -11,13 +11,13 @@ export default function Hobby({ lang }) {
 
       <header>
         <div className={styles.container}>
-          <img className="borderline" src="/images/5.png" />
+          <img className="borderline" src="images/5.png" />
         </div>
       </header>
 
       <main>
         <div className={styles.container}>
-          <img src="/images/title.gif" />
+          <img src="images/title.gif" />
 
           <h2 className={styles.title}>{t.hobbies_desc}</h2>
 

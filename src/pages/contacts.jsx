@@ -11,14 +11,14 @@ export default function Contacts({ lang }) {
 
       <header>
         <div className={styles.container}>
-          <img className="borderline" src="/images/2.png" />
+          <img className="borderline" src="images/2.png" />
           <h1 className={styles.title}>{t.contacts_link}</h1>
         </div>
       </header>
 
       <main>
         <div className={styles.container}>
-          <img src="/images/title.gif" />
+          <img src="images/title.gif" />
 
           <h2 className={styles.title}>{t.contacts_title}</h2>
 

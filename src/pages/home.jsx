@@ -48,7 +48,7 @@ export default function Home({ lang }) {
 
       {assistantVisible && (
         <div className="assistant">
-          <img src="/images/Clippy_guy.png" alt="" />
+          <img src="images/Clippy_guy.png" alt="" />
           <p className="text_style">{assistantText}</p>
         </div>
       )}

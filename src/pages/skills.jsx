@@ -11,7 +11,7 @@ export default function Skills({ lang }) {
 
       <header>
         <div className={styles.container}>
-          <img className="borderline" src="/images/3.png" />
+          <img className="borderline" src="images/3.png" />
           <h1 className={styles.title}>{t.skills_title}</h1>
         </div>
       </header>

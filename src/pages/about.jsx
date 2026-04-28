@@ -11,7 +11,7 @@ export default function About({ lang }) {
 
       <header>
         <div className={styles.container}>
-          <img className="borderline" src="/images/4.png" />
+          <img className="borderline" src="images/4.png" />
           <h1 className={styles.title}>{t.about_title}</h1>
           <p className={styles.boxes}>{t.about_info}</p>
         </div>

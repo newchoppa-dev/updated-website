@@ -72,22 +72,6 @@ export default function Home({ lang }) {
         </section>
       </div>
 
-      <div className={`${styles.container} ${styles.layout}`}>
-        <nav>
-          <ul>
-            <li className="linkstyle">
-              <Link to="/">{t.main_link}</Link>
-            </li>
-            <li className="linkstyle">
-              <Link to="/contacts">{t.contacts_link}</Link>
-            </li>
-			<li className="linkstyle">
-			<Link className="linkstyle" to="/notes">{t.notes_title}</Link>
-			</li>
-          </ul>
-        </nav>
-      </div>
-
       <main>
         <div className={`${styles.container} ${styles.layout}`}>
 

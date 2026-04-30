@@ -53,12 +53,17 @@ a:hover {
 }
 
 .container {
-  width: 1020px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1020px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 16px;
 }
 
+@media (min-width: 768px) {
+  .container {
+    padding: 0 24px;
+  }
+}
 .layout {
   display: flex;
   gap: 20px;
@@ -234,4 +239,52 @@ h2::after {
 
 .buttonTagsstyle:hover {
 	background: #ccc;
+}
+
+header {
+	position: sticky;
+	z-index: 1000;
+	
+	background: var(--bg);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav {
+	gap: 10px;
+	margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+	
+	nav.navClosed {
+		display: none;
+	}
+	
+	nav.navOpen {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	header button {
+		display: block;
+	}
+}
+
+@media (min-width: 769px) {
+	header button {
+		display: none;
+	}
+	
+	nav {
+		display: flex !important;
+	}
+}
+
+h1 {
+	font-size: clamp(20px, 4vw, 32px);
+}
+
+h2 {
+	font-size: clamp(18px, 3vw, 26px);
 }
